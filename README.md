@@ -28,6 +28,18 @@ In the event that you would like to uninstall the application, simply run the fo
 sudo make uninstall
 ```
 
+#### Ubuntu
+
+To build from source on a clean ubuntu 16.04:
+
+```
+curl https://sh.rustup.rs -sSf | sh
+source ~/.profile
+sudo apt-get install libgtk-3-dev
+make
+sudo make install
+```
+
 ## Screenshots
 
 ![Services](screenshot-services.png)
